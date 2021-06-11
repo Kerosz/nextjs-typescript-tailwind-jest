@@ -5,7 +5,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint src --ext js,ts,jsx,tsx",
+    "lint": "eslint src --ext ts,tsx",
+    "lint:fix": "eslint src --ext ts,tsx --fix",
+    "prettify": "prettier --config ./prettier.config.js --check 'src/**/*.ts'",
+    "prettify:fix": "prettier --config ./prettier.config.js --write 'src/**/*.ts'",
     "test": "jest",
     "test:covarage": "yarn test --coverage",
     "test:debug": "yarn test --debug --detectOpenHandles",
@@ -41,7 +44,7 @@
     "typescript": "^4.2.4"
   },
   "volta": {
-    "node": "15.10.0",
+    "node": "14.17.0",
     "yarn": "1.22.10"
   }
 }

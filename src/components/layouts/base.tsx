@@ -1,5 +1,5 @@
 // components
-import Header from "@/components/header";
+import Header from "~/components/header";
 // types
 import type { ReactNode } from "react";
 

@@ -16,8 +16,11 @@
 /build
 
 # misc
+.vscode
+.idea
 .DS_Store
 *.pem
+yarn.lock
 
 # debug
 npm-debug.log*
